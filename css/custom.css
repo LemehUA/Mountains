@@ -1,0 +1,130 @@
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+header {
+    background: gray;
+    min-height: 50px;
+}
+
+.header-box {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.header-nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+/* start style sec-1 */
+
+ul li a {
+    color: #9daeb6;
+    padding: 0px 0px 10px 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec-1 {
+    padding: 220px 0px 150px 0px;
+    background-image: url('../img/no-man-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec-1--box {
+    border: 3px solid #fff;
+    padding: 40px 35px;
+}
+
+p {
+    width: 445px;
+    font-family: 'Open Sans', sans-serif;
+    color: #dadfe3;
+    text-align: left;
+}
+
+.sec-1-title--white {
+    font-size: 50px;
+    font-weight: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: ;
+    color: white;
+    display: block;
+    line-height: 0.4;
+}
+
+.sec-1-title--blue {
+    font-size: 60px;
+    font-family: "Bringin";
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.7;
+    letter-spacing: 1.32px;
+    text-align: left;
+    color: #56c7ff;
+}
+
+.btn {
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background: #36aeea;
+    color: #fff;
+    border: 3px solid transparent;
+    padding: 20px 0px;
+    margin-bottom: 15px;
+    min-width: 152px;
+}
+
+.btn-blue-lg {
+    background: #36aeea;
+    color: #fff;
+    border: 3px solid transparent;
+    padding: 15px 0px;
+    margin-top: 30px;
+    min-width: 250px;
+}
+
+.btn-blue-lg:hover {
+    background: transparent;
+    color: #36aeea;
+    border: 3px solid #36aeea;
+}
+
+.btn-blue-lg:active {
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #36aeea;
+}
+
+.btn-blue-lg:focus {
+    background: transparent;
+    color: #36aeea;
+    border: 3px solid #36aeea;
+}
+
+/* end style sec-1 */
