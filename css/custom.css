@@ -37,7 +37,8 @@ header {
 ul li a {
     color: #9daeb6;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans";
+    font-weight: bold;
 }
 
 ul li a:hover {
@@ -60,7 +61,7 @@ ul li a:hover {
 
 p {
     width: 445px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans Regular";
     color: #dadfe3;
     text-align: left;
     line-height: normal;
@@ -70,7 +71,7 @@ p {
 .sec-1-title--white {
     font-size: 50px;
     font-weight: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans Bold";
     text-transform: uppercase;
     color: white;
     display: block;
@@ -96,7 +97,7 @@ p {
     cursor: pointer;
 }
 
-.btn-blue {
+.btn-blue-sm {
     background: transparent;
     color: #36aeea;
     border: 3px solid #36aeea;
@@ -105,13 +106,13 @@ p {
     min-width: 152px;
 }
 
-.btn-blue:hover {
+.btn-blue-sm:hover {
     background: #36aeea;
     color: #fff;
     border: 3px solid #36aeea;
 }
 
-.btn-blue:active {
+.btn-blue-sm:active {
     background: #36aeea;
     color: #fff;
     border: 3px solid #36aeea;
@@ -145,3 +146,78 @@ p {
 }
 
 /* end style sec-1 */
+
+/* start style sec-2 */
+
+.sec-2-box {
+    height: 667px;
+    background-color: #f6f4f4;
+    background-image: url("/img/Vector_Smart_Object.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 975px;
+}
+
+h3 {
+    margin-top: 300px;
+    height: 16px;
+    color: #2c2e37;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.34px;
+}
+
+.text_about {
+    width: 352px;
+    height: 66px;
+    color: #949494;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.img1 {
+    width: 806px;
+    height: 570px;
+    z-index: 1;
+    position: absolute;
+    top: 713px;
+    left: 654px;
+}
+
+.img2 {
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+    position: absolute;
+    top: 1026px;
+    left: 564px;
+}
+
+.read_more {
+    background: #36aeea;
+    color: #fff;
+    border: 3px solid transparent;
+    padding: 15px 0px;
+    margin-top: 30px;
+    min-width: 130px;
+}
+
+.read_more:hover {
+    background: transparent;
+    color: #36aeea;
+    border: 3px solid #36aeea;
+}
+
+.read_more:active {
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #36aeea;
+}
+
+/* end style sec-2 */
