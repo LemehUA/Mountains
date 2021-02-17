@@ -25,3 +25,11 @@
     url("../fonts/Open_Sans_Regular/Open\ Sans\ Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url("../fonts/Open_Sans_Regular/Open\ Sans\ Regular.svg") format("svg"); /* iOS 4.1- */
   }
+
+  @font-face {font-family: "Open Sans";
+    src: url("../fonts/Open_Sans/Open\ Sans.eot"); /* IE9*/
+    src: url("../fonts/Open_Sans/Open\ Sans.eot") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Open_Sans/Open\ Sans.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/Open_Sans/Open\ Sans.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/Open_Sans/Open\ Sans.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/Open_Sans/Open\ Sans.svg") format("svg"); /* iOS 4.1- */
