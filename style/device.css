@@ -1,0 +1,548 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 45 version
+*/
+
+
+@media (min-width:1200px) {
+    .circle-little-after:after {
+        width: 5%;
+        margin-left: 13%
+    }
+    .circle-little-before:before {
+        width: 5%;
+        margin-right: 13%
+    }
+    .circle-little-after2::after {
+        width: 5%;
+        margin-left: 13%
+    }
+    .circle-little-before2::before {
+        width: 5%;
+        margin-right: 13%
+    }
+}
+
+
+@media (max-width:1170px) {
+    .img_girls {
+        left: 45.4%
+    }
+}
+
+@media (max-width:1117px) {
+    .sec-1--boxtop {
+        min-width: 980px
+    }
+    .sec-1--man {
+        top: 25px
+    }
+}
+
+@media (max-width:1050px) {
+    .sec-1--boxtop {
+        min-width: 920px
+    }
+}
+
+@media (max-width:1070px) {
+    .sec-1--boxtop {
+        display: 800px
+    }
+    .sec-1--man {
+        top: 70px
+    }
+}
+
+@media (max-width:998px) {
+    .header-nav {
+        max-width: 50%;
+        margin-bottom: 20px
+    }
+    .sec-1--man {
+        display: none
+    }
+    .sec-1--boxtop {
+        display: none
+    }
+    .button_callus {
+        padding: 15px 20px
+    }
+    .our-journal_item {
+        -webkit-flex-basis: 50%;
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%
+    }
+    .journal_item_bg2 {
+        -webkit-box-ordinal-group: 5;
+        -webkit-order: 4;
+            -ms-flex-order: 4;
+                order: 4
+    }
+    .journal_item--content2 {
+        -webkit-box-ordinal-group: 4;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3
+    }
+    .journal_item_bg3 {
+        -webkit-box-ordinal-group: 6;
+        -webkit-order: 5;
+            -ms-flex-order: 5;
+                order: 5
+    }
+    .journal_item--content3 {
+        -webkit-box-ordinal-group: 7;
+        -webkit-order: 6;
+            -ms-flex-order: 6;
+                order: 6
+    }
+    .journal_item--content3::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 10px;
+        left: -60px;
+        border-top: 50px solid transparent;
+        border-right: 50px solid rgb(255 255 255);
+        border-bottom: 50px solid transparent
+    }
+    .how_we_work-box  {
+        width: 50%
+    }
+    .how_we_work-card {
+        width: 50%
+    }
+    .circle-little-after:after {
+        width: 11%;
+        margin-left: 25%
+    }
+    .circle-little-before:before {
+        width: 11%;
+        margin-right: 25%
+    }
+    .circle-little-after-23::after {
+        display: none
+    }
+    .circle-tittle-before-23::before {
+        display: none
+    }
+    .form_area {
+        max-width: 851px;
+        min-height: 62px;
+        background-color: #fff;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 20px
+    }
+    .img_girls {
+        min-width: 465px;
+        min-height: 325px;
+        left: 54%;
+        top: -25px
+    }
+    .img_legs {
+        min-width: 245px;
+        min-height: 245px;
+        margin: 245px 0 44px 50%
+    }
+    .button_form {
+        display: inline-block
+    }
+    .brends_box  {
+        width: 90vw;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around
+    }
+    .gallery-grid {
+        -ms-grid-rows: 243px 100px 243px 243px 243px;
+        grid-template-rows: 243px 100px 243px 243px 243px;
+        max-height: none
+    }
+    .gallery-grid>div:nth-child(3) {
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        grid-row: 4/5;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2
+    }
+    .gallery-grid>div:nth-child(6) {
+        -ms-grid-row: 5;
+        -ms-grid-row-span: 1;
+        grid-row: 5/6;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2
+    }
+}
+
+@media (max-width:770px) {
+    .header-nav {
+        max-width: 80%;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        clear: both
+    }
+    .button_callus {
+        position: absolute;
+        max-width: 21%;
+        margin-left: -22%;
+        margin-top: 10px;
+        padding: 5px 15px
+    }
+    .img_girls {
+        min-width: 416px;
+        min-height: 310px;
+        left: 47%;
+        top: -40px
+    }
+    .img_legs {
+        margin: 397px 0 44px 50%
+    }
+    .form_area {
+        width: 50%;
+        display: block;
+        padding-bottom: 140px;
+        padding-top: 20px
+    }
+    .your_name {
+        padding: 10px 0;
+        border-right: none;
+        border-bottom: 1px solid #ebebeb;
+        width: 90%
+    }
+    .your_phone {
+        padding: 10px 0;
+        border-bottom: 1px solid #ebebeb;
+        width: 90%
+    }
+    .button_form {
+        margin: 30px 20px;
+        width: 40%
+    }
+    .our-journal_box  {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 380px
+    }
+    .our-journal_item {
+        -webkit-flex-basis: 100%;
+            -ms-flex-preferred-size: 100%;
+                flex-basis: 100%
+    }
+    .journal_item--content1 {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1
+    }
+    .journal_item_bg1 {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+            -ms-flex-order: 2;
+                order: 2
+    }
+    .journal_item--content2 {
+        -webkit-box-ordinal-group: 6;
+        -webkit-order: 5;
+            -ms-flex-order: 5;
+                order: 5
+    }
+    .journal_item_bg2 {
+        -webkit-box-ordinal-group: 7;
+        -webkit-order: 6;
+            -ms-flex-order: 6;
+                order: 6
+    }
+    .journal_item--content3 {
+        -webkit-box-ordinal-group: 4;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3
+    }
+    .journal_item_bg3 {
+        -webkit-box-ordinal-group: 5;
+        -webkit-order: 4;
+            -ms-flex-order: 4;
+                order: 4
+    }
+    .journal_item--content1::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 340px;
+        left: 10px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #fff
+    }
+    .journal_item--content3::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 340px;
+        left: 270px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #fff
+    }
+    .journal_item--content2::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 340px;
+        left: 10px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #fff
+    }
+    .how_we_work-box  {
+        width: 50%
+    }
+    .how_we_work-card {
+        width: 100%
+    }
+    .circl-lit-after:after {
+        display: none
+    }
+    .circl-lit-before::before {
+        display: none
+    }
+    .brends_box  {
+        width: 39%
+    }
+    .contacts_form_title {
+        font-size: 3.5vw
+    }
+    .fotter_div {
+        width: 33.3%
+    }
+    .social_icons {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+        margin: 2px auto
+    }
+    .card_brend {
+        padding: 75px 10px 70px 10px
+    }
+    .qoute {
+        width: 18px;
+        height: 16px
+    }
+    .clients_say_text {
+        font-size: 14px;
+        line-height: 24px
+    }
+    .clients_say_work {
+        font-size: 14px;
+        line-height: 20px
+    }
+    .clients_say_name {
+        font-size: 14px;
+        line-height: 20px
+    }
+    .clients_say_photo {
+        width: 50px;
+        height: 50px
+    }
+    .fotter_number {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+            -ms-flex-order: 2;
+                order: 2;
+        margin: 2px auto
+    }
+    .fotter_number>a {
+        font-size: 5vw
+    }
+    .fotter_text {
+        -webkit-box-ordinal-group: 4;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+        margin: 2px auto;
+        font-size: 2.5vw
+    }
+}
+
+@media (max-width:680px) {
+    .gallery-grid {
+        -ms-grid-rows: 343px 243px 243px 343px 343px 243px;
+        grid-template-rows: 343px 243px 243px 343px 343px 243px
+    }
+    .gallery-grid>div:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2
+    }
+    .gallery-grid>div:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3
+    }
+    .gallery-grid>div:nth-child(3) {
+        -ms-grid-row: 5;
+        -ms-grid-row-span: 1;
+        grid-row: 5/6;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4
+    }
+    .gallery-grid>div:nth-child(4) {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2
+    }
+    .gallery-grid>div:nth-child(5) {
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        grid-row: 4/5;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3
+    }
+    .gallery-grid>div:nth-child(6) {
+        -ms-grid-row: 6;
+        -ms-grid-row-span: 1;
+        grid-row: 6/7;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/4
+    }
+}
+
+@media (max-width:540px) {
+    .img_girls {
+        min-width: 416px;
+        min-height: 310px;
+        left: 12%;
+        top: 348px
+    }
+    .img_legs {
+        display: none
+    }
+    .div_aboutus {
+        max-width: 360px;
+        margin: 53px 0 0 10%
+    }
+}
+
+@media (max-width:440px) {
+    .sec-2-text {
+        width: 50%
+    }
+    .img_girls {
+        display: none
+    }
+    .div_aboutus {
+        margin: 215px 0 0 10%
+    }
+    .header-nav {
+        max-width: 100%
+    }
+    .sec-title {
+        word-wrap: break-word;
+        line-height: 30px;
+        font-size: 25px
+    }
+    .button_ordernow {
+        font-size: 12px;
+        min-width: 150px
+    }
+    .sec-1-title-text {
+        line-height: 24px
+    }
+    .sec-1-title--white {
+        font-size: 30px
+    }
+    .sec-1-title--blue {
+        font-size: 50px;
+        line-height: 40px
+    }
+    .your_phone {
+        width: 60%
+    }
+    .your_name {
+        width: 60%
+    }
+    .button_form {
+        width: 60%;
+        font-size: 10px
+    }
+    .circle-big {
+        width: 100px;
+        height: 100px
+    }
+    .circle-big::before {
+        margin-top: -60%
+    }
+}
+
+@media (max-width:355px) {
+    .sec-1-title--blue {
+        display: none
+    }
+    .gallery-grid>div:nth-child(1) {
+        display: none
+    }
+    .gallery-grid {
+        -ms-grid-rows: 0 0 243px 343px 343px 243px;
+        grid-template-rows: 0 0 243px 343px 343px 243px
+    }
+    .gallery-grid>div:nth-child(4) {
+        display: none
+    }
+}
+
+@media (max-width:290px) {
+    .button_callus {
+        display: none
+    }
+    .button_ordernow {
+        font-size: 10px;
+        min-width: 100px
+    }
+    .brends_box  {
+        display: block;
+        width: 0%
+    }
+    .gallery-grid>div:nth-child(2) {
+        display: none
+    }
+    .gallery-grid {
+        -ms-grid-rows: 0 0 0 0 343px 243px;
+        grid-template-rows: 0 0 0 0 343px 243px
+    }
+    .gallery-grid>div:nth-child(5) {
+        display: none
+    }
+    .brends_box  {
+        display: -ms-grid;
+        display: grid
+    }
+}
